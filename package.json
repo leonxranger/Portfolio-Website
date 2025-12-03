@@ -1,7 +1,7 @@
 
 {
-  "homepage": "https://leonxranger.github.io/Portfolio-Website",
   "name": "package",
+  "homepage": "https://leonxranger.github.io/Portfolio-Website/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
