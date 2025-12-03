@@ -35,7 +35,7 @@ export default function Skills(){
     ,{skill:"Database",elements:[{text:"Mongo DB",logo:DiMongodb ,para:"Managed and queried NoSQL databases efficiently using MongoDB collections."},
       {text:"Firestore",logo:RxCross1 ,para:"Built scalable, real-time databases with Firebase Firestore integration."}
     ],text:""}
-    ,{skill:"DevOPs",elements:[{text:"GitHub",logo:RxCross1,text:""}],para:""}
+    ,{skill:"DevOPs",elements:[{text:"GitHub",logo:RxCross1}],para:""}
     ,{skill:"Currently Learning",text:""}
 ]
 
