@@ -1,0 +1,19 @@
+#nav-element::before{
+    content: '';
+    position: absolute;
+    height:2px;
+    width:100% ;
+    background-color: white;
+    top:24px;
+    transform: scale(0);
+    transition: 100ms ease-in-out;
+}
+
+#nav-element{
+    display: inline-block;
+    position: relative;
+}
+
+#nav-element:hover::before {
+  transform: scaleX(1);
+}

@@ -1,0 +1,21 @@
+#indicard::before{
+    content: '';
+    position: absolute;
+    height:105%;
+    width:105% ;
+    
+    top:0;
+    left:0;
+    z-index: -1;
+ 
+}
+
+
+
+#indicard:hover{
+     position: relative;   
+}
+
+#indicard:hover::before {
+  transform: scaleX(1);
+}

@@ -1,0 +1,91 @@
+@font-face {
+  font-family: 'GeneralSans-Semibold';
+  font-style: normal;
+  src: url('./assets/GeneralSans_Complete/Fonts/OTF/GeneralSans-Semibold.otf') format('opentype');
+}
+
+@font-face {
+  font-family:'GeneralSans-Bold' ;
+  src: url('./assets/GeneralSans_Complete/Fonts/OTF/GeneralSans-Bold.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'GeneralSans-Semibold';
+  src: url("./assets/GeneralSans_Complete/Fonts/OTF/GeneralSans-Semibold.otf")format('opentype');
+
+  font-family: 'GeneralSans-Medium';
+  src: url("./assets/GeneralSans_Complete/Fonts/OTF/GeneralSans-Medium.otf")format('opentype');
+
+  
+}
+@font-face {
+  font-family: 'GeneralSans-Regular';
+  src: url("./assets/GeneralSans_Complete/Fonts/OTF/GeneralSans-regular.otf")format('opentype');
+}
+
+
+@theme{
+    --font-GeneralSans-Bold: GeneralSans-Bold,'sans-serif';
+    --font-GeneralSans-Medium:GeneralSans-Medium,'sans-serif';
+    --font-GeneralSans-Semibold:GeneralSans-Semibold,'sans-serif';
+    --font-GeneralSans-Regular:GeneralSans-Regular,'sans-serif';
+
+    --color-mainblue: #324f7b;
+    --color-secondaryblue: #86A6DE; 
+}
+
+
+:root {
+  
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #191919;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+@import "tailwindcss";
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+ 
+}
+
+
+#button1 {
+  
+  border: 1px solid transparent;
+  
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+#button1:hover {
+  border-color: #f8f8f8;
+}
+#button1:focus,
+#button1:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #393636;
+  }
+}
