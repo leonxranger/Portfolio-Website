@@ -138,7 +138,7 @@ export default function Mainpage(){
             </section>
 
 
-            <section id="Skills">
+            <section id="Skills" className="p-5">
                     <Skills/>
 
             </section>

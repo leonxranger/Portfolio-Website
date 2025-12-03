@@ -86,7 +86,7 @@ const popupcard = {
         <>
                
 
-        <motion.div className="flex  flex-1  relative  w-[90vw] sm:w-full sm:h-[80vh] flex-col gap-5 p-3 ">
+        <motion.div className="flex  flex-1  relative  w-[80vw] sm:w-full sm:h-[80vh] items-center flex-col gap-5 p-3 ">
 
 
           
