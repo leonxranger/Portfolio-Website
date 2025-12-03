@@ -8,5 +8,5 @@ export default defineConfig({
     react(),
     tailwindcss(), // 👈 KEEP THIS! This is required for Tailwind 4
   ],
-  base: "Portfolio-Website", // 👈 Add this line (replace with your repo name)
+  base: "/Portfolio-Website/", // 👈 Add this line (replace with your repo name)
 })
